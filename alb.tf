@@ -10,3 +10,5 @@ resource "aws_lb" "alb" {
     Name = var.ALB_NAME
   }
 }
+
+aws_lb.alb.arn
